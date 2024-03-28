@@ -1,16 +1,5 @@
 # React + Vite
 # Application Todo List
-
-## Structure générale
-
-L'application utilise le hook `useState` de React pour gérer son état, avec les variables d'état suivantes :
-
-- `todo`: Un tableau contenant les tâches à faire. Chaque tâche est un objet qui contient un ID unique, un titre, un booléen `checked` pour indiquer si la tâche est terminée, et une date optionnelle.
-- `inputValue`: La valeur actuelle de l'input pour ajouter de nouvelles tâches.
-- `showCalendarId`: L'ID de la tâche actuellement sélectionnée pour afficher le calendrier et choisir une date.
-- `isEditing`: Un booléen ou null qui indique si l'utilisateur est en train d'éditer une tâche et quelle tâche est en cours d'édition.
-- `editValue`: La valeur actuelle du champ d'édition de la tâche.
-
 ## Fonctions principales
 
 ### `addTask`
